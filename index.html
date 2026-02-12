@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Carrera de Sillas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="game-container">
+        <h1>Grand Prix de Sillas 🪑</h1>
+        
+        <div class="betting-area">
+            <p>Selecciona tu silla favorita:</p>
+            <button onclick="setBet(0)">Silla Roja</button>
+            <button onclick="setBet(1)">Silla Azul</button>
+            <button onclick="setBet(2)">Silla Verde</button>
+            <p id="bet-status">No has apostado aún.</p>
+            <button id="start-btn" disabled onclick="startRace()">¡EMPEZAR CARRERA!</button>
+        </div>
+
+        <div class="track" id="track">
+            <div class="chair" id="chair-0">🪑<span class="label">Rojo</span></div>
+            <div class="chair" id="chair-1">🪑<span class="label">Azul</span></div>
+            <div class="chair" id="chair-2">🪑<span class="label">Verde</span></div>
+            <div class="finish-line"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
