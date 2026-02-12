@@ -1,7 +1,7 @@
 let selectedChair = null;
 let raceInterval;
 const chairs = [
-    { id: 'chair-0', pos: 0, name: 'Roja' },
+    { id: 'chair-', pos: 0, name: 'Roja' },
     { id: 'chair-1', pos: 0, name: 'Azul' },
     { id: 'chair-2', pos: 0, name: 'Verde' }
 ];
