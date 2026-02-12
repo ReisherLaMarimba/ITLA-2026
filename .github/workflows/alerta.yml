@@ -31,7 +31,7 @@ jobs:
           curl -H "Title: ¡Pista Preparada!" \
                -H "Priority: high" \
                -H "Tags: racing_car,chair,white_check_mark" \
-               -d "Todas las sillas están listas para correr. El deploy se ha realizado correctamente en el repositorio." \
+               -d "Todas las sillas están listas para correr. El deploy se ha realizado correctamente en el repositorio. Reisher MElla 2019-9047" \
                ntfy.sh/devops-itla
 
       # 4. Notificación de error
